@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogCaféTukys</title>
+
+   <!--Preload-->
+    <!--NOTA:Para cargar elementos se debe de poner el preload y despues el elemento que se va a cargar-->
+    <link rel="preload" href="css/Normalize.css" as="style">
+    <link rel="stylesheet" href="css/Normalize.css"> <!--Agregamos normilze a HTML-->
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--Podemos seleccionar varias fuentes de google fonts y al final copiar el enlace y pegarlo en HTML (seleccionar el ultimo del primer cuadro)-->
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="CSS/styles.css">  <!--Agregamos styles a HTML. Con esto vinculamos las hojas de diseño CSS a HTML-->
+
+    <link rel="preload" href="img/nosotros.jpg">
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo no-margin centrar-texto" href="index.html">
+                    <h1 class="logo__nombre">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="nosotros.html"> Nosotros</a>
+                    <a class="navegacion__enlace" href="cursos.html">Cursos</a>
+                    <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+    
+    <main class="contenedor">
+        <h3 class="centrar-texto">Sobre nosotros</h3>
+
+        <div class="sobre-nosotros">
+            <img class="sobre-nosotros__imagen" src="/img/nosotros.jpg" alt="café">
+            <p class="sobre-nosotros__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate error esse, officia hic illum 
+                itaque, nisi, ea earum tenetur incidunt doloremque? Vitae beatae obcaecati nihil ut quibusdam, magnam 
+                incidunt facere! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, eaque placeat quis earum harum deserunt in cumque ipsa. 
+                In ratione ipsam eius similique autem tempora cumque aliquam expedita perspiciatis vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aliquam et temporibus impedit harum nulla veritatis perferendis earum ratione modi adipisci autem, nesciunt laboriosam corporis dolorem ducimus totam
+                 dignissimos culpa consectetur.</p>
+                
+        </div>
+
+    </main>
+</body>
+
+
+<footer class="footer">
+    <!--
+    <div>
+        <div>
+            <a href="index.html">Blog <span>DeCafé</span></a>
+        </div>
+    </div>
+    -->
+
+    
+        <div class="contenedor contenedor__baja">
+        <div class="barra">
+            <a class="logo no-margin centrar-texto" href="index.html">
+                <h1 class="logo__nombre">Blog<span class="logo__bold">DeCafé</span></h1>
+            </a>
+
+            <nav class="navegacion">
+                <a class="navegacion__enlace" href="nosotros.html"> Nosotros</a>
+                <a class="navegacion__enlace" href="cursos.html">Cursos</a>
+                <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </div>
+    
+   
+</footer>
+
+
+
+</html>
